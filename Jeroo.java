@@ -6,8 +6,93 @@ public class Jeroo extends JerooBase {
 
     
     public void plantCross() {
-        
-    }
+      hop();
+      hop();
+      hop();
+      hop();
+      hop();
+      hop();
+      turn(RIGHT);
+      hop();
+      hop();
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant() ;
+      hop();
+      plant();
+      turn(RIGHT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(RIGHT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(RIGHT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(RIGHT);
+      hop();
+      plant();
+      hop();
+      plant();
+      hop();
+      plant();
+      turn(LEFT);
+      hop();
+      plant();
+      hop();
+      hop();
+     }
     // Put any helpermethods here
     
     
