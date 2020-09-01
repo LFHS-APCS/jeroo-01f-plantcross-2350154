@@ -3,10 +3,24 @@
  * @author Steve Aronson
  */
 public class Jeroo extends JerooBase {
-
     
     public void plantCross() {
-      hop();
+      start();
+      quadrant();
+      quadrant();
+      quadrant();
+      quadrant();
+      finish();
+    }
+    public void quadrant(){
+      plant3();
+      turn(RIGHT);
+      plant3();
+      turn(LEFT);
+      plant2();
+      turn(LEFT);
+    }
+    public void start(){
       hop();
       hop();
       hop();
@@ -16,6 +30,19 @@ public class Jeroo extends JerooBase {
       hop();
       hop();
       hop();
+      hop();
+      hop();
+      turn(LEFT);
+      hop();
+      turn(RIGHT);
+    }
+    public void finish(){
+      turn(RIGHT);
+      hop();
+    }
+    
+    // Put any helpermethods here
+      public void plant4(){
       plant();
       hop();
       plant();
@@ -23,79 +50,21 @@ public class Jeroo extends JerooBase {
       plant() ;
       hop();
       plant();
-      turn(RIGHT);
+    }
+      public void plant3(){
       hop();
       plant();
       hop();
       plant();
       hop();
       plant();
-      turn(LEFT);
+    }
+      public void plant2(){
       hop();
       plant();
       hop();
       plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(RIGHT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(RIGHT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(RIGHT);
-      hop();
-      plant();
-      hop();
-      plant();
-      hop();
-      plant();
-      turn(LEFT);
-      hop();
-      plant();
-      hop();
-      hop();
-     }
-    // Put any helpermethods here
-    
-    
+    }
     
     
     // Do NOT touch the code below here
