@@ -30,8 +30,6 @@ public class Jeroo extends JerooBase {
       hop();
       hop();
       hop();
-      hop();
-      hop();
       turn(LEFT);
       hop();
       turn(RIGHT);
@@ -42,15 +40,6 @@ public class Jeroo extends JerooBase {
     }
     
     // Put any helpermethods here
-      public void plant4(){
-      plant();
-      hop();
-      plant();
-      hop();
-      plant() ;
-      hop();
-      plant();
-    }
       public void plant3(){
       hop();
       plant();
